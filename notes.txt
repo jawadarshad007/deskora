@@ -1,0 +1,1 @@
+react-rnd: package used to make your component resizeable and grag it anywhere U want .
