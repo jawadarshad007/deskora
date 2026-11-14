@@ -46,4 +46,14 @@
     .main-content{
         height: 100%;
     }
+    // ::-webkit-scrollbar = Browser ke scrollbar ko target karta hai.
+    *::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    // ::-webkit-scrollbar-thumb ka matlab hai scrollbar ke andar jo moving part hota hai, usko target karna.
+    *::-webkit-scrollbar-thumb{
+        background-color: rgba(168, 168, 168, 0.4);
+        border-radius: 4px;
+    }
 }

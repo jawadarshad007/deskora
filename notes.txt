@@ -1,1 +1,12 @@
-react-rnd: package used to make your component resizeable and grag it anywhere U want .
+react-rnd:
+        package used to make your component resizeable and drag it anywhere U want .
+
+react-markdown:
+        public/note.txt ma jo code likha hoa ha jo markdown(md) format ma likha ha , ab markdown(md) format ko React ma render krne ka lia aik package install krna parhta ha react-markdown
+
+react-syntax-highlighter: 
+        React ki ek library hai jo code ko visually highlight (colorful formatting) karne ke liye use hoti hai website ma.
+
+
+<iframe></iframe>:
+        <iframe> tag kisi doosri website, webpage, PDF ya external content ko apni current webpage ke andar display (embed) karne ke liye use hota hai.
