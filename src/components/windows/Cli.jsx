@@ -11,7 +11,7 @@ const commands = {
   about: {
     description: 'Learn a little about the portfolio owner.',
     usage: 'about',
-    fn: () => 'A passionate developer building thoughtful web experiences. (Replace this with your own bio.)'
+    fn: () => 'I am a full-stack web developer passionate about building modern web applications with React, Node.js, and cloud technologies.'
   },
   projects: {
     description: 'Show a few featured projects.',
@@ -21,12 +21,18 @@ const commands = {
   skills: {
     description: 'Display the portfolio owner\'s skills.',
     usage: 'skills',
-    fn: () => 'Skills: JavaScript, React, HTML, CSS (Edit this list to match your skills.)'
+    fn: () => `Frontend: React, Vanilla JS, Sass, HTML/CSS
+                Backend: Node.js, Express, Python, Django
+                Databases: MongoDB, PostgreSQL, MySQL
+                Tools: Git, Docker, Webpack, Vite
+                Cloud: AWS, Azure, Heroku`
   },
   contact: {
     description: 'Show contact information.',
     usage: 'contact',
-    fn: () => 'Get in touch: hello@example.com (Replace with your email or preferred contact link.)'
+    fn: () => `Email: jawadarshad.dev@gmail.com
+                Phone: 0302-6336375
+                Location: Johar Town, Lahore, Pakistan`
   },
   resume: {
     description: 'Show how to view the resume.',
