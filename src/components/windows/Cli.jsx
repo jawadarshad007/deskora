@@ -55,9 +55,9 @@ Location: Lahore, Pakistan`
 
 
 
-const Cli = () => {
+const Cli = ({windowName, setWindowState}) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowState={setWindowState}>
       <div className="cli-window">
        
 <Terminal
