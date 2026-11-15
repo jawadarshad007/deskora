@@ -1,12 +1,21 @@
-.cli-window{
+
+.cli-window {
     height: 100%;
-    overflow:  auto;
+    overflow: auto;
     padding-bottom: 3rem;
     background-color: #222222;
+    font-family: 'Fira Code', 'Courier New', monospace;
 
-    // div ka andr aik attribute ha name="react-console-emulator" isko select kia
-    div[name="react-console-emulator"]{
+    div[name="react-console-emulator"] {
         height: 100%;
-        background-color: transparent !important; 
+        background-color: transparent !important;
+        font-family: 'Fira Code', monospace;
+        font-size: 14px;
+        // line-height: 1.7;
+
+
+        span, div {
+      white-space: pre-wrap !important;
+    }
     }
 }
