@@ -10,3 +10,7 @@ react-syntax-highlighter:
 
 <iframe></iframe>:
         <iframe> tag kisi doosri website, webpage, PDF ya external content ko apni current webpage ke andar display (embed) karne ke liye use hota hai.
+
+
+react-console-emulator:
+        React.js ki ek library hai jo aapki React application ke andar Terminal / Command Line Interface (CLI) jaisi window create karne ke liye use hoti hai.  
