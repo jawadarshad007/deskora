@@ -8,6 +8,7 @@ import Note from "./components/windows/Note"
 import Resume from "./components/windows/Resume"
 import Spotify from "./components/windows/Spotify"
 import { useState } from "react"
+import Welcome from "./components/Welcome"
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <main>
 
       <Nav />
+      <Welcome />
       <Dock windowState={windowState}  setWindowState={setWindowState} />
       
      {windowState.github && <Github windowName="github"  setWindowState={setWindowState} />}

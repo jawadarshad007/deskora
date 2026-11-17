@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;1,300;1,400;1,500;1,700&display=swap");
+
+.wc {
+  --wc-text: #ebe9e6e3; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(100svh - var(--nav-height, 72px));
+  overflow: hidden;
+  font-family: "Fira Sans", system-ui, sans-serif;
+  color: var(--wc-text);
+
+  &-content {
+    width: 100%;
+    padding: 0 1.25rem;
+  }
+
+  &-hello {
+    margin: 0 0 clamp(0.5rem, 2vw, 1.75rem);
+    font-weight: 200;
+    font-size: clamp(1.05rem, 2.4vw, 1.9rem);
+    letter-spacing: 0.01em;
+    opacity: 0.85;
+  }
+
+  &-word {
+    display: inline-block;
+    will-change: transform, opacity, filter;
+  }
+
+  &-title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: clamp(4.5rem, 15vw, 14rem);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    cursor: default;
+  }
+
+  &-mask {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.12em 0.14em 0.16em;
+    margin: -0.12em -0.14em -0.16em;
+  }
+
+  &-glyph {
+    --s: 0em;
+    display: inline-block;
+    -webkit-text-stroke: var(--s) currentColor;
+    paint-order: stroke fill;
+    will-change: transform;
+  }
+}

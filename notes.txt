@@ -14,3 +14,12 @@ react-syntax-highlighter:
 
 react-console-emulator:
         React.js ki ek library hai jo aapki React application ke andar Terminal / Command Line Interface (CLI) jaisi window create karne ke liye use hoti hai.  
+
+
+
+gsap:  
+        GSAP is a JavaScript animation library that helps you animate HTML elements, CSS properties, SVGs, and more.
+
+@gsap/react:    
+        This package provides React-specific utilities for using GSAP safely inside React components.
+        Its most useful feature is useGSAP().
