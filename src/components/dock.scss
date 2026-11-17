@@ -20,12 +20,41 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
 
         aspect-ratio: 1/1;
         width: 3.75rem;
 
         transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+        position: relative;
     }
+
+    .icon::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(6px);
+    margin-bottom: 0.6rem;
+
+    padding: 0.25rem 0.6rem;
+    border-radius: 0.4rem;
+    background: rgba(55, 54, 54, 0.85);
+    backdrop-filter: blur(6px);
+    color: #fff;
+    font-size: 1rem;
+    white-space: nowrap;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.icon:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
 
     .github,
     .cli {
@@ -40,7 +69,7 @@
         background: linear-gradient(to bottom, rgb(255, 65, 78), rgb(255, 25, 40));
     }
 
-    .calender,
+    .calendar,
     .mail {
         background: linear-gradient(to bottom, rgb(105, 94, 255), rgb(66, 52, 255));
     }
