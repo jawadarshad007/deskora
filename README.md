@@ -4,6 +4,10 @@
 
 The goal of Deskora is to create a modern, immersive, and interactive digital workspace that combines creativity, functionality, and a desktop operating system experience.
 
+## 🚀 Live Demo
+
+**[🌐 Explore Deskora Live](https://deskora-umber.vercel.app/)**
+
 ## ✨ Features
 
 - **Desktop Environment:** A macOS-inspired interface with a clean and modern desktop layout.
@@ -90,8 +94,8 @@ Deskora aims to demonstrate how modern frontend technologies can be used to buil
 
 **Jawad Arshad**
 
-- GitHub: [@jawadarshad007](https://github.com/jawadarshad007)
-- LinkedIn: [Jawad Arshad](https://linkedin.com/in/jawadarshad007/)
+- **GitHub:** [@jawadarshad007](https://github.com/jawadarshad007)
+- **LinkedIn:** [Jawad Arshad](https://linkedin.com/in/jawadarshad007/)
 
 ---
 
